@@ -96,7 +96,7 @@ const Profile: React.FC = () => {
 
         Alert.alert(
           'Perfil atualizado!',
-          'Suas informações no GoBarber foram atualizadas com sucesso',
+          'Suas informações foram atualizadas com sucesso',
         );
       } catch (err) {
         if (err instanceof Yup.ValidationError) {

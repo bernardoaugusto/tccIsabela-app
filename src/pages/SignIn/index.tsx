@@ -95,7 +95,7 @@ const SignIn: React.FC = () => {
           keyboardShouldPersistTaps="handled"
         >
           <Container>
-            <Image source={logoImg} />
+            {/* <Image source={logoImg} /> */}
 
             <View>
               <Title>Faça seu logon</Title>

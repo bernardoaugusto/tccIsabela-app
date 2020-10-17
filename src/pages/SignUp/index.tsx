@@ -63,10 +63,7 @@ const SignUp: React.FC = () => {
 
         navigation.goBack();
 
-        Alert.alert(
-          'Cadastro realizado!',
-          'Você já pode fazer seu logon no GoBarber',
-        );
+        Alert.alert('Cadastro realizado!', 'Você já pode fazer seu logon');
       } catch (err) {
         if (err instanceof Yup.ValidationError) {
           const errors = getValidationErrors(err);
@@ -97,7 +94,7 @@ const SignUp: React.FC = () => {
           keyboardShouldPersistTaps="handled"
         >
           <Container>
-            <Image source={logoImg} />
+            {/* <Image source={logoImg} /> */}
 
             <View>
               <Title>Crie sua conta</Title>
